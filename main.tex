@@ -1,0 +1,248 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+% \renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+	{#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+	\item\small{
+    	{#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+	\begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+  	\textbf{#1} & \textbf{\small #2} \\
+  	\textit{\small#3} & \textit{\small #4} \\
+	\end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+	\item
+	\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+  	\textit{\small#1} & \textit{\small #2} \\
+	\end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+	\item
+	\begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+  	\small#1 & \textbf{\small #4}\\
+	\end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+	{\Huge \scshape Sikta Mohanty} \\ \vspace{1pt}
+	\vspace{3pt}
+	\small \raisebox{-0.1\height}\faPhone\ 89XXXXXXXX ~~ \href{mailto:mohanty.moonsikta@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  {mohanty.moonsikta@gmail.com}} ~ ~
+\extrainfo{\faGithub\href{https://github.com/Sikta2002} { github.com/Sikta2002}}  ~ ~
+\extrainfo{\faLinkedin\href{https://www.linkedin.com/in/sikta-mohanty-046b791b0/} { linkedin.com/in/sikta-mohanty/}}% 
+
+	\vspace{-2pt}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+\vspace{5pt}
+  \resumeSubHeadingListStart
+	\resumeSubheading
+  	{Kalinga Institute of Industrial Technology}{2019 - 2023}
+  	{Bachelor of Technology in Computer Science and System Engineering with CGPA: 9.35}{Odisha, India}
+  \resumeSubHeadingListEnd
+   \resumeSubHeadingListStart
+	\resumeSubheading
+  	{Delhi Public School, Kalinga}{2017 - 2019}
+  	{CBSE - PCMB }
+  	{Odisha, India}
+  \resumeSubHeadingListEnd
+    \resumeSubHeadingListEnd
+   \vspace{-10pt}
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+\vspace{5pt}
+  \resumeSubHeadingListStart
+  	\resumeSubheading
+   { HIGHRADIUS | INTERN }
+  {Jan 2022 - Dec 2022}
+  	{}{}
+  	 \setlength{\parskip}{-1.5em}
+		\resumeItemListStart
+    	\resumeItem{Successfully built an AI-Enabled FinTech B2B Invoice Management Application with a neat UI that helps the people working in the Accounts Receivable departments in their day-to-day activities using technologies like \textbf{Python}, \textbf{MySQL}, \textbf{JavaScript}.}
+         \resumeItem{Worked with the Product Team as a data analyst.}
+	\resumeItemListEnd
+  \resumeSubHeadingListEnd
+  \vspace{-10pt}
+
+%-----------PROJECTS-----------
+\section{Projects}
+\vspace{5pt}
+\resumeSubHeadingListStart
+	\resumeSubheading
+   { URL Shortening API Page | \emph{HTML, CSS, JavaScript}}
+  {June 2022}
+  	{}{}
+        \setlength{\parskip}{-2em}
+  	\resumeItemListStart
+    	\resumeItem{Page integrate with the 'shrtcode' API to create shortened URLs. Users can see a list of their shortened links and copy it to their clipboard with a single click.}
+        \resumeItem{\textbf{\textcolor{blue}{\href{https://github.com/Sikta2002/SMART.URL}{Code Link} \mid} \textbf{\href{https://sikta2002.github.io/SMART.URL/}{Website Link}}}}
+    
+    {}}{}}
+    \vspace{-10pt}
+	\resumeItemListEnd
+  \resumeSubHeadingListEnd
+\resumeSubHeadingListStart
+	\resumeSubheading
+   { Password Generator | \emph{HTML, CSS, JavaScript}}
+  {Feb 2023}
+  	 {}{}
+    \setlength{\parskip}{-2em}
+  	\resumeItemListStart
+    	\resumeItem{Page providing a user-friendly interface for generating passwords with various options for length and character types, along with a default setting of 10 characters including lowercase letters.}
+        \resumeItem{\textbf{\textcolor{blue}{\href{https://github.com/Sikta2002/Password-Generator}{Code Link} \mid} \textbf{\href{https://sikta2002.github.io/Password-Generator/}{Website Link}}}}
+    
+	\resumeItemListEnd
+  \resumeSubHeadingListEnd
+    \vspace{-10pt}
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+\vspace{5pt}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+	\small{\item{
+ 	\textbf{Languages}{: C++, Python} \\
+ 	\setlength{\parskip}{1.5em}
+   \textbf{Others}{: DBMS, MySQL, OOP, DSA, HTML, CSS, JavaScript} \\
+ 	% 	\setlength{\parskip}{1.5em}
+ 	% \textbf{Core Subject}{: DBMS, OOP, Operating System, Data Structures, Algorithms} \\
+ 		% \setlength{\parskip}{-2em}
+
+	}}
+ \end{itemize}
+  \vspace{-10pt}
+%
+%-----------Profile Links-----------
+\section{Coding Profile}
+\vspace{5pt}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+	\resumeItemListStart
+    	\resumeItem {\href{https://leetcode.com/Sikta/}{Leetcode}}
+    	
+    		\resumeItem {\href{https://www.hackerrank.com/moon_sikta}{Hackerrank}}
+  	\resumeItemListEnd
+ \end{itemize}
+   \vspace{-10pt}
+
+%-----------Achievements-----------
+\section{Achievements}
+\vspace{5pt}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+	\resumeItemListStart
+            \resumeItem{5 star - Hackerrank}
+            \resumeItem{\href{https://drive.google.com/drive/folders/1nlPlaAIpHYg7uezN-R2Y-jTBNSS5hS2Z?usp=sharing}{Certificates (Problem Solving, Python)} - Hackerrank}
+    	\resumeItem{Participated in coding contests on platforms like Leetcode.}
+    	
+  	\resumeItemListEnd
+ \end{itemize}
+  \vspace{-10pt}
+ 
+%  
+%------------ExtraCurricular------------
+\section{Co-Curricular Activities}
+\vspace{5pt}
+  \resumeSubHeadingListStart
+	\resumeSubheading
+  	{KIIT Hack Club }{Jan 2022 - Jan 2023}
+  	{Former Operations Lead }{Odisha, India}
+  		\resumeItemListStart
+    	\resumeItem{Management and Hosting Events along with social Media Content Posting and Handling.}
+	\resumeItemListEnd
+  	
+  \resumeSubHeadingListEnd
+
+
+
+\end{document}
